@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+
+    <MeshAtlas Path="Meshes/OnyxRandomIshTankA.glb" />
+    <MeshAtlas Path="Meshes/OnyxRandomIshNozzleA.glb" />
+
+  <PbrMaterial Id="OnyxRandomIsh_Material">
+    <Diffuse Path="Textures/OnyxRandomIsh_Diffuse.png" Category="Vessel" />
+    <Normal Path="Textures/OnyxRandomIsh_Normal.png" Category="Vessel" />
+    <AoRoughMetal Path="Textures/OnyxRandomIsh_PBR.png" Category="Vessel" />
+  </PbrMaterial>
+
+
+    <SubPart Id="OnyxRandomIsh_Subpart_TankA">
+        <PartModelDynamic Id="OnyxRandomIsh_Subpart_TankA_Model">
+            <Mesh Id="OnyxRandomIsh_Subpart_TankA" />
+            <Material Id="OnyxRandomIsh_Material" />
+        </PartModelDynamic>
+        <MeshView>
+            <Mesh Id="OnyxRandomIsh_Subpart_TankA" />
+        </MeshView>
+     </SubPart>
+
+    <SubPart Id="OnyxRandomIsh_Subpart_NozzleA">
+        <PartModelDynamic Id="OnyxRandomIsh_Subpart_NozzleA_Model">
+            <Mesh Id="OnyxRandomIsh_Subpart_NozzleA" />
+            <Material Id="OnyxRandomIsh_Material" />
+        </PartModelDynamic>
+        <MeshView>
+            <Mesh Id="OnyxRandomIsh_Subpart_NozzleA" />
+        </MeshView>
+     </SubPart>
+
+  <Part Id="OnyxRandomIsh_Prefab_TankA">
+    <SubPart Id="OnyxRandomIsh_Subpart_TankA" InstanceOf="OnyxRandomIsh_Subpart_TankA" />
+    <Connector Id="_connector1">
+      <Transform>
+        <Position X="1" />
+      </Transform>
+    </Connector>
+    <Connector Id="_connector2">
+      <Transform>
+        <Position X="-1" />
+        <Rotation Z="3.1416" />
+      </Transform>
+    </Connector>
+  </Part>
+
+  <Part Id="OnyxRandomIsh_Prefab_BellA">
+    <SubPart Id="OnyxRandomIsh_Subpart_TankA" InstanceOf="OnyxRandomIsh_Subpart_TankA" />
+    <SubPart Id="OnyxRandomIsh_Subpart_NozzleA" InstanceOf="OnyxRandomIsh_Subpart_NozzleA">
+      <Transform>
+        <Position X="-1.75" />
+      </Transform>
+    </SubPart>
+    <Connector Id="_connector1">
+      <Transform>
+        <Position X="1" />
+      </Transform>
+    </Connector>
+  </Part>
+
+  <Part Id="ORIEngineA">
+    <SubPart Id="OnyxRandomIsh_Subpart_NozzleA1" InstanceOf="OnyxRandomIsh_Subpart_NozzleA" />
+    <Connector Id="_connector1">
+      <Transform>
+        <Position X="0.75" />
+      </Transform>
+    </Connector>
+  </Part>
+</Assets>
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+  <SubPart Id="KittenEngineMod_Subpart_Mk2Assembly">
+    <PartModelDynamic Id="KittenEngineMod_Subpart_Mk2Assembly_Model">
+      <Mesh Id="CorePropulsionA_Subpart_EngineAMedBoostAssembly" />
+      <Material Id="CorePropulsionA_Material" />
+    </PartModelDynamic>
+    <MeshView>
+      <Mesh Id="CorePropulsionA_Subpart_EngineAMedBoostAssembly_VM" />
+    </MeshView>
+  </SubPart>
+  <Part Id="KittenEngineMod_Prefab_LR91SeaMk2" CrashTolerance="3e6">
+    <SubPart Id="CorePropulsionA_Subpart_EngineA1WBase1" InstanceOf="CorePropulsionA_Subpart_EngineA1WBase">
+      <Transform>
+        <Position X="0.9278" Y="-0.0966" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="FlexiPipe_EndNode3" InstanceOf="FlexiPipe_EndNode">
+      <Transform>
+        <Position X="0.5642" Y="-0.2725" Z="-0.325" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="FlexiPipe_StartNode3" InstanceOf="FlexiPipe_StartNode">
+      <Transform>
+        <Position X="0.5235" Y="-0.2606" Z="-0.2733" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="CorePropulsionA_Subpart_EngineAActuatorShaft3" InstanceOf="CorePropulsionA_Subpart_EngineAActuatorShaft">
+      <Transform>
+        <Position X="0.6054" Z="-0.3714" />
+        <Rotation Y="0.3491" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="CorePropulsionA_Subpart_EngineAActuatorHousing3" InstanceOf="CorePropulsionA_Subpart_EngineAActuatorHousing">
+      <Transform>
+        <Position X="0.9553" Z="-0.4989" />
+        <Rotation Y="0.3491" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="CorePropulsionA_Subpart_EngineAActuatorShaft4" InstanceOf="CorePropulsionA_Subpart_EngineAActuatorShaft">
+      <Transform>
+        <Position X="0.6054" Y="0.3714" />
+        <Rotation X="1.5708" Z="0.3491" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="CorePropulsionA_Subpart_EngineAActuatorHousing4" InstanceOf="CorePropulsionA_Subpart_EngineAActuatorHousing">
+      <Transform>
+        <Position X="0.9553" Y="0.4989" />
+        <Rotation X="1.5708" Z="0.3491" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="FlexiPipe_StartNode4" InstanceOf="FlexiPipe_StartNode">
+      <Transform>
+        <Position X="0.4955" Y="0.2391" Z="0.3007" />
+        <Rotation X="-3.0107" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="FlexiPipe_EndNode4" InstanceOf="FlexiPipe_EndNode">
+      <Transform>
+        <Position X="0.5004" Y="0.1999" Z="0.4181" />
+        <Rotation X="-3.0107" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="KittenEngineMod_Subpart_Mk2Assembly1" InstanceOf="KittenEngineMod_Subpart_Mk2Assembly">
+      <Transform>
+        <Position X="-0.0124" />
+      </Transform>
+      <Gimbal>
+        <Transform>
+          <Position X="0.8257" />
+        </Transform>
+      </Gimbal>
+    </SubPart>
+    <SubPart Id="CorePropulsionA_Subpart_EngineATurbopumpFrame2" InstanceOf="CorePropulsionA_Subpart_EngineATurbopumpFrame">
+      <Transform>
+        <Position X="0.3085" Y="-0.5502" Z="-0.0407" />
+      </Transform>
+    </SubPart>
+    <SubPart Id="CorePropulsionA_Subpart_EngineATurbopumpNozzle2" InstanceOf="CorePropulsionA_Subpart_EngineATurbopumpNozzle">
+      <Transform>
+        <Position X="0.1157" Y="-0.6803" Z="-0.4174" />
+        <Rotation X="-0.5236" />
+      </Transform>
+      <Gimbal>
+        <Transform>
+          <Position X="0.1156" Y="-0.0001" Z="0.0968" />
+          <Rotation X="-1.5708" />
+        </Transform>
+      </Gimbal>
+    </SubPart>
+    <Connector Id="_connector2">
+      <Transform>
+        <Position X="1.17" />
+      </Transform>
+    </Connector>
+  </Part>
+</Assets>

@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+  <MixtureReaction Id="Pentaborane" Category="Bipropellant">
+    <Name Value="Pentaborane + Oxygen" />
+    <Description Value="A high-energy but lethally toxic fuel that ignites spontaneously on contact with air. Also it has green plumes" />
+    <Reactant Id="B5H9(l)" MassShare="1.0" />
+    <Reactant Id="O2(l)" MassShare="1.0" />
+    <DefaultMixtureRatio>2.0</DefaultMixtureRatio>
+    <MixtureRatioCondition Value="0.30412977014589637">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="1681.4524216904756" />
+        <Gamma Value="1.1507117978252766" />
+        <MolarMass GPerMol="9.171362632382287" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="1717.6583543368795" />
+        <Gamma Value="1.1485223464961123" />
+        <MolarMass GPerMol="9.16244417726927" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="1754.318590628629" />
+        <Gamma Value="1.1463443578428822" />
+        <MolarMass GPerMol="9.154003832315025" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="1791.1760365058542" />
+        <Gamma Value="1.1441908135749506" />
+        <MolarMass GPerMol="9.146364278454968" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="1827.89633731055" />
+        <Gamma Value="1.1420774583981461" />
+        <MolarMass GPerMol="9.139972334297042" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="1864.0594082464356" />
+        <Gamma Value="1.140022777136955" />
+        <MolarMass GPerMol="9.135442519981307" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="1899.1583584119005" />
+        <Gamma Value="1.1380475025725503" />
+        <MolarMass GPerMol="9.133614127139152" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="1932.61174636115" />
+        <Gamma Value="1.1361733752423275" />
+        <MolarMass GPerMol="9.135625287872967" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="1963.795268121936" />
+        <Gamma Value="1.13442088910517" />
+        <MolarMass GPerMol="9.14300896621322" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="1992.0955918711497" />
+        <Gamma Value="1.1328059290376005" />
+        <MolarMass GPerMol="9.157818911624059" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="2016.9804956918365" />
+        <Gamma Value="1.1313355803087242" />
+        <MolarMass GPerMol="9.182799585580732" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="2038.0674986683316" />
+        <Gamma Value="1.1300038263451118" />
+        <MolarMass GPerMol="9.221623711750707" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="2055.164774686454" />
+        <Gamma Value="1.1287879305612454" />
+        <MolarMass GPerMol="9.279235473844187" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="2068.2610730496212" />
+        <Gamma Value="1.127645458448319" />
+        <MolarMass GPerMol="9.362363079107762" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="0.422586945322461">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="1755.3902326160405" />
+        <Gamma Value="1.1631512142173377" />
+        <MolarMass GPerMol="10.331114968101884" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="1791.0054460355532" />
+        <Gamma Value="1.1608850585645847" />
+        <MolarMass GPerMol="10.319325669855981" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="1836.7185927931434" />
+        <Gamma Value="1.1580412915586724" />
+        <MolarMass GPerMol="10.305226557122506" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="1884.1643951284914" />
+        <Gamma Value="1.1551523417318075" />
+        <MolarMass GPerMol="10.291463101765688" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="1933.2900108040287" />
+        <Gamma Value="1.1522220491824422" />
+        <MolarMass GPerMol="10.278449847795237" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="1983.985852436335" />
+        <Gamma Value="1.149256002806925" />
+        <MolarMass GPerMol="10.266789200185492" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="2036.0652724335537" />
+        <Gamma Value="1.146261926884997" />
+        <MolarMass GPerMol="10.257350718731088" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="2089.2391442454896" />
+        <Gamma Value="1.1432500515757018" />
+        <MolarMass GPerMol="10.251382497257548" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="2143.0854641882484" />
+        <Gamma Value="1.1402333751404305" />
+        <MolarMass GPerMol="10.25066590298229" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="2197.0155749600654" />
+        <Gamma Value="1.1372276450586234" />
+        <MolarMass GPerMol="10.257727330341199" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="2250.241300220174" />
+        <Gamma Value="1.1342507452052024" />
+        <MolarMass GPerMol="10.276122850678233" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="2301.7513339332677" />
+        <Gamma Value="1.1313209211295856" />
+        <MolarMass GPerMol="10.310815517192028" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="2350.0000051730526" />
+        <Gamma Value="1.1284393523485965" />
+        <MolarMass GPerMol="10.36856889781898" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="2350.000005173044" />
+        <Gamma Value="1.12444337601621" />
+        <MolarMass GPerMol="10.44749525414587" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="0.5871826565064671">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="2093.6418390127014" />
+        <Gamma Value="1.165115941613436" />
+        <MolarMass GPerMol="11.960473338693115" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="2104.5527062853776" />
+        <Gamma Value="1.164600399990066" />
+        <MolarMass GPerMol="11.964060771267746" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="2114.6294736026" />
+        <Gamma Value="1.1640934163699002" />
+        <MolarMass GPerMol="11.964373653947893" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="2124.4612805833294" />
+        <Gamma Value="1.1635627337237002" />
+        <MolarMass GPerMol="11.961554083901117" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="2134.7820709275015" />
+        <Gamma Value="1.1629660052446484" />
+        <MolarMass GPerMol="11.956138824400195" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="2146.6958837645784" />
+        <Gamma Value="1.1622353995828396" />
+        <MolarMass GPerMol="11.949840034856129" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="2162.1986068031056" />
+        <Gamma Value="1.1612438266319132" />
+        <MolarMass GPerMol="11.947297405624129" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="2194.855192627118" />
+        <Gamma Value="1.1592107081854506" />
+        <MolarMass GPerMol="11.949729318232318" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="2264.1081266431956" />
+        <Gamma Value="1.1551441127863298" />
+        <MolarMass GPerMol="11.937435229299025" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="2336.413851250491" />
+        <Gamma Value="1.1509580482406827" />
+        <MolarMass GPerMol="11.93261390785669" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="2350.000005173048" />
+        <Gamma Value="1.13605233407438" />
+        <MolarMass GPerMol="11.849102290937902" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="2379.314877993258" />
+        <Gamma Value="1.1286244460899542" />
+        <MolarMass GPerMol="11.839565481041864" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="2440.7681467256757" />
+        <Gamma Value="1.1253782911740515" />
+        <MolarMass GPerMol="11.88025495156144" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="2498.520676852622" />
+        <Gamma Value="1.1222404419774714" />
+        <MolarMass GPerMol="11.950641436454614" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="0.8158876555897855">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="2350.0000051730085" />
+        <Gamma Value="1.1731273126497894" />
+        <MolarMass GPerMol="14.298576055260758" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="2350.000005173044" />
+        <Gamma Value="1.1716488667347573" />
+        <MolarMass GPerMol="14.354138562585387" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="2350.000005173048" />
+        <Gamma Value="1.1705036614243232" />
+        <MolarMass GPerMol="14.390753831020014" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="2350.000005173048" />
+        <Gamma Value="1.1695631276790248" />
+        <MolarMass GPerMol="14.412444998751685" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="2350.0000051730462" />
+        <Gamma Value="1.168725255925482" />
+        <MolarMass GPerMol="14.421938820052462" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="2350.04803362862" />
+        <Gamma Value="1.1679015369196417" />
+        <MolarMass GPerMol="14.42117913313223" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="2363.4212267807147" />
+        <Gamma Value="1.1670416499294696" />
+        <MolarMass GPerMol="14.411920723216916" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="2377.955460220304" />
+        <Gamma Value="1.1660048646145678" />
+        <MolarMass GPerMol="14.399439196132" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="2396.3791595688294" />
+        <Gamma Value="1.1646328675315123" />
+        <MolarMass GPerMol="14.391473524478656" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="2423.3853088416004" />
+        <Gamma Value="1.1626670268210266" />
+        <MolarMass GPerMol="14.404158129704502" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="2509.073551422553" />
+        <Gamma Value="1.1574830551929183" />
+        <MolarMass GPerMol="14.373923240691209" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="2605.9792719437405" />
+        <Gamma Value="1.1517733937322099" />
+        <MolarMass GPerMol="14.345384340607607" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="2706.9182873454556" />
+        <Gamma Value="1.1459009485492222" />
+        <MolarMass GPerMol="14.333759017239842" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="2810.834856902258" />
+        <Gamma Value="1.1398689054442495" />
+        <MolarMass GPerMol="14.348635012791329" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="1.1336722213566695">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="2611.6281198081283" />
+        <Gamma Value="1.1937671270935428" />
+        <MolarMass GPerMol="17.4553095376449" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="2669.0035167967603" />
+        <Gamma Value="1.1916682558365594" />
+        <MolarMass GPerMol="17.55256681222198" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="2726.013885103674" />
+        <Gamma Value="1.189581407244579" />
+        <MolarMass GPerMol="17.64839034667165" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="2782.1143022697056" />
+        <Gamma Value="1.1875160060648933" />
+        <MolarMass GPerMol="17.741034114687043" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="2836.7041019329695" />
+        <Gamma Value="1.185480156691416" />
+        <MolarMass GPerMol="17.828360073622463" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="2889.164885718054" />
+        <Gamma Value="1.183478667792022" />
+        <MolarMass GPerMol="17.907863096306873" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="2938.919771687176" />
+        <Gamma Value="1.18151037480068" />
+        <MolarMass GPerMol="17.976768142367984" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="2985.51097573605" />
+        <Gamma Value="1.1795649408118054" />
+        <MolarMass GPerMol="18.032231204671106" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="3028.684939233134" />
+        <Gamma Value="1.1776195366199194" />
+        <MolarMass GPerMol="18.071680672152784" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="3068.4700571012936" />
+        <Gamma Value="1.1756357092034437" />
+        <MolarMass GPerMol="18.093356647372058" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="3105.245281488462" />
+        <Gamma Value="1.1735556601092942" />
+        <MolarMass GPerMol="18.09718414718231" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="3139.8494205097945" />
+        <Gamma Value="1.1712940590398488" />
+        <MolarMass GPerMol="18.08634101661053" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="3173.887402147023" />
+        <Gamma Value="1.168715885127439" />
+        <MolarMass GPerMol="18.070377088278136" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="3210.4825416551703" />
+        <Gamma Value="1.165587484316579" />
+        <MolarMass GPerMol="18.07129610740905" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="1.5752324436710787">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="2910.996802375603" />
+        <Gamma Value="1.2070848329948018" />
+        <MolarMass GPerMol="19.67634476503122" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="2994.1492404910323" />
+        <Gamma Value="1.204213260153172" />
+        <MolarMass GPerMol="19.857059562143576" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="3080.0609081279467" />
+        <Gamma Value="1.2012798957033315" />
+        <MolarMass GPerMol="20.047480951387712" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="3168.4900241904515" />
+        <Gamma Value="1.1982943954889473" />
+        <MolarMass GPerMol="20.24758202669606" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="3259.0703327682045" />
+        <Gamma Value="1.1952700335636306" />
+        <MolarMass GPerMol="20.457053228637402" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="3351.2820147725092" />
+        <Gamma Value="1.1922243629228972" />
+        <MolarMass GPerMol="20.67520643354211" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="3444.4228733925606" />
+        <Gamma Value="1.18917974085723" />
+        <MolarMass GPerMol="20.900871588638907" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="3537.584192489712" />
+        <Gamma Value="1.1861634995876529" />
+        <MolarMass GPerMol="21.13230589658412" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="3629.640967966392" />
+        <Gamma Value="1.1832074126473549" />
+        <MolarMass GPerMol="21.367154174478344" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="3719.2679544717294" />
+        <Gamma Value="1.1803458504417645" />
+        <MolarMass GPerMol="21.602525052615754" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="3804.997429696847" />
+        <Gamma Value="1.1776118037061476" />
+        <MolarMass GPerMol="21.835301145205353" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="3885.333264972922" />
+        <Gamma Value="1.175029484216792" />
+        <MolarMass GPerMol="22.06284506499154" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="3958.9333320664277" />
+        <Gamma Value="1.1726015251907134" />
+        <MolarMass GPerMol="22.284376672383257" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="4024.865140351444" />
+        <Gamma Value="1.1702868932239692" />
+        <MolarMass GPerMol="22.50350965435522" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="2.1887783830713508">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="3130.859616931381" />
+        <Gamma Value="1.2072123429822634" />
+        <MolarMass GPerMol="21.520067974263743" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="3228.4952882591333" />
+        <Gamma Value="1.2040838401442644" />
+        <MolarMass GPerMol="21.755684273342535" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="3330.8015105206837" />
+        <Gamma Value="1.2008378744954347" />
+        <MolarMass GPerMol="22.00697204346593" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="3437.874118111705" />
+        <Gamma Value="1.1974761832254814" />
+        <MolarMass GPerMol="22.27502819284861" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="3549.742571644915" />
+        <Gamma Value="1.1940028472640158" />
+        <MolarMass GPerMol="22.5609057347215" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="3666.3431194652267" />
+        <Gamma Value="1.1904249682934192" />
+        <MolarMass GPerMol="22.86554610289585" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="3787.4851753764874" />
+        <Gamma Value="1.1867534254781418" />
+        <MolarMass GPerMol="23.189682112122526" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="3912.810730502876" />
+        <Gamma Value="1.1830036660953704" />
+        <MolarMass GPerMol="23.533711589871086" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="4041.747819971387" />
+        <Gamma Value="1.1791963994473935" />
+        <MolarMass GPerMol="23.897543297592666" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="4173.461401785702" />
+        <Gamma Value="1.175357964706738" />
+        <MolarMass GPerMol="24.28043241867237" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="4306.808463329596" />
+        <Gamma Value="1.1715199269261454" />
+        <MolarMass GPerMol="24.680848223381407" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="4440.310424977831" />
+        <Gamma Value="1.1677172923347607" />
+        <MolarMass GPerMol="25.096477067789724" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="4572.161939143986" />
+        <Gamma Value="1.163984132937056" />
+        <MolarMass GPerMol="25.52452790346692" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="4700.305545407556" />
+        <Gamma Value="1.1603449882609653" />
+        <MolarMass GPerMol="25.962692364598524" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="3.0412977014589635">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="3176.955413698297" />
+        <Gamma Value="1.2053779261443829" />
+        <MolarMass GPerMol="23.835798632552226" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="3278.741117793169" />
+        <Gamma Value="1.2022590490927612" />
+        <MolarMass GPerMol="24.0993480585894" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="3385.779742386331" />
+        <Gamma Value="1.1990192492552507" />
+        <MolarMass GPerMol="24.38119943429121" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="3498.292380934676" />
+        <Gamma Value="1.19565733970443" />
+        <MolarMass GPerMol="24.68287634051987" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="3616.4670573346184" />
+        <Gamma Value="1.1921736476847031" />
+        <MolarMass GPerMol="25.005973286095355" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="3740.441124344622" />
+        <Gamma Value="1.1885704919099822" />
+        <MolarMass GPerMol="25.352122649116538" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="3870.278825502297" />
+        <Gamma Value="1.1848527226190084" />
+        <MolarMass GPerMol="25.72294373746889" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="4005.943725023553" />
+        <Gamma Value="1.1810283073535293" />
+        <MolarMass GPerMol="26.119969481026295" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="4147.266048432573" />
+        <Gamma Value="1.1771088927833495" />
+        <MolarMass GPerMol="26.544549244650575" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="4293.905916043186" />
+        <Gamma Value="1.1731102442965473" />
+        <MolarMass GPerMol="26.997735180286366" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="4445.31511381397" />
+        <Gamma Value="1.1690523216211217" />
+        <MolarMass GPerMol="27.480161549561906" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="4600.70260121751" />
+        <Gamma Value="1.164958757917339" />
+        <MolarMass GPerMol="27.991962597643067" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="4759.01132620432" />
+        <Gamma Value="1.1608551962049094" />
+        <MolarMass GPerMol="28.532801119168962" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="4918.918600986058" />
+        <Gamma Value="1.156765842173959" />
+        <MolarMass GPerMol="29.102159005126335" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="4.422702055174453">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="3079.5136133059923" />
+        <Gamma Value="1.205300264899982" />
+        <MolarMass GPerMol="26.549768411342928" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="3172.4751527749654" />
+        <Gamma Value="1.2024147457628453" />
+        <MolarMass GPerMol="26.807428681850094" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="3269.4168329382956" />
+        <Gamma Value="1.199449180331164" />
+        <MolarMass GPerMol="27.080268260955137" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="3370.3379066581397" />
+        <Gamma Value="1.1964072022198686" />
+        <MolarMass GPerMol="27.36895276894641" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="3475.1671359612333" />
+        <Gamma Value="1.1932944604517546" />
+        <MolarMass GPerMol="27.674014528943115" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="3583.741761772415" />
+        <Gamma Value="1.190119050554" />
+        <MolarMass GPerMol="27.99578380255798" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="3695.78387401196" />
+        <Gamma Value="1.1868919260067623" />
+        <MolarMass GPerMol="28.334301271830924" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="3810.874669290048" />
+        <Gamma Value="1.1836272937347572" />
+        <MolarMass GPerMol="28.68922199995605" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="3928.4299645058513" />
+        <Gamma Value="1.180342824411583" />
+        <MolarMass GPerMol="29.05971044034348" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="4047.6805835672394" />
+        <Gamma Value="1.17705959523298" />
+        <MolarMass GPerMol="29.444351534768685" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="4167.66352991714" />
+        <Gamma Value="1.1738014934851035" />
+        <MolarMass GPerMol="29.841103947904546" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="4287.233061066949" />
+        <Gamma Value="1.1705939075502743" />
+        <MolarMass GPerMol="30.24735431763215" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="4405.098991139894" />
+        <Gamma Value="1.167461253165008" />
+        <MolarMass GPerMol="30.66014313517237" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="4519.903893981428" />
+        <Gamma Value="1.1644228563590657" />
+        <MolarMass GPerMol="31.076680968632676" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="6.431561586181095">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="2911.745155343311" />
+        <Gamma Value="1.2079654167918443" />
+        <MolarMass GPerMol="28.954975793571915" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="2988.2403519149234" />
+        <Gamma Value="1.2054836121615284" />
+        <MolarMass GPerMol="29.175305626938435" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="3066.7071833465916" />
+        <Gamma Value="1.2029754437802147" />
+        <MolarMass GPerMol="29.40395397708986" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="3146.9140511583305" />
+        <Gamma Value="1.2004492930493458" />
+        <MolarMass GPerMol="29.64052630474994" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="3228.5565885418227" />
+        <Gamma Value="1.1979152205973036" />
+        <MolarMass GPerMol="29.884408331905707" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="3311.2504951368164" />
+        <Gamma Value="1.1953849995960437" />
+        <MolarMass GPerMol="30.13473436591311" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="3394.5275409795017" />
+        <Gamma Value="1.1928720292530905" />
+        <MolarMass GPerMol="30.390365369669517" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="3477.8368237535615" />
+        <Gamma Value="1.1903910587721342" />
+        <MolarMass GPerMol="30.649883953714085" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="3560.5528959879107" />
+        <Gamma Value="1.1879577107063113" />
+        <MolarMass GPerMol="30.911621099353507" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="3641.9927172456723" />
+        <Gamma Value="1.185587626161135" />
+        <MolarMass GPerMol="31.17372019310762" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="3721.443261456442" />
+        <Gamma Value="1.183295310610963" />
+        <MolarMass GPerMol="31.434267829738474" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="3798.2000029255814" />
+        <Gamma Value="1.1810923469753185" />
+        <MolarMass GPerMol="31.691504226388307" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="3871.617672819521" />
+        <Gamma Value="1.1789848180901892" />
+        <MolarMass GPerMol="31.94417040317636" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="3941.1792015980086" />
+        <Gamma Value="1.1769690956053964" />
+        <MolarMass GPerMol="32.19208657280805" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="9.352876119801982">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="2696.2570981637145" />
+        <Gamma Value="1.213393360138078" />
+        <MolarMass GPerMol="30.852670877926844" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="2752.5741503873055" />
+        <Gamma Value="1.211445906580718" />
+        <MolarMass GPerMol="31.015635737947317" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="2808.8739360100594" />
+        <Gamma Value="1.2095232818982649" />
+        <MolarMass GPerMol="31.179816201118776" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="2864.8323131107272" />
+        <Gamma Value="1.2076353141486984" />
+        <MolarMass GPerMol="31.344306580866423" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="2920.0947646760533" />
+        <Gamma Value="1.2057922733145665" />
+        <MolarMass GPerMol="31.50809523215563" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="2974.2856809654104" />
+        <Gamma Value="1.2040045087078302" />
+        <MolarMass GPerMol="31.670091716388857" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="3027.021221537675" />
+        <Gamma Value="1.202282011284903" />
+        <MolarMass GPerMol="31.829170065439076" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="3077.9249265545877" />
+        <Gamma Value="1.2006338255172726" />
+        <MolarMass GPerMol="31.984224707509348" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="3126.6462154050255" />
+        <Gamma Value="1.1990674121460092" />
+        <MolarMass GPerMol="32.13424897147275" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="3172.880188093868" />
+        <Gamma Value="1.1975877685414489" />
+        <MolarMass GPerMol="32.278434589808654" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="3216.390172619503" />
+        <Gamma Value="1.1961961887772017" />
+        <MolarMass GPerMol="32.41631823515791" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="3257.037864487242" />
+        <Gamma Value="1.1948880803239095" />
+        <MolarMass GPerMol="32.54802950175739" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="3294.8382887953844" />
+        <Gamma Value="1.1936483611472717" />
+        <MolarMass GPerMol="32.674792951403724" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="3330.091651566891" />
+        <Gamma Value="1.192440396825819" />
+        <MolarMass GPerMol="32.800102660892975" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="13.601096800552208">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="2406.262695121577" />
+        <Gamma Value="1.2228259163939572" />
+        <MolarMass GPerMol="32.088719957091556" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="2438.1285734181893" />
+        <Gamma Value="1.2216199776167576" />
+        <MolarMass GPerMol="32.17835629403718" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="2468.558252195513" />
+        <Gamma Value="1.2204763353701311" />
+        <MolarMass GPerMol="32.26431709618698" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="2497.4016545753266" />
+        <Gamma Value="1.2193989768488842" />
+        <MolarMass GPerMol="32.34616532758707" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="2524.538309345314" />
+        <Gamma Value="1.218390669294391" />
+        <MolarMass GPerMol="32.4235493951754" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="2549.882227969314" />
+        <Gamma Value="1.217452812553396" />
+        <MolarMass GPerMol="32.49622573875914" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="2573.385456075878" />
+        <Gamma Value="1.2165851868158526" />
+        <MolarMass GPerMol="32.56408327240879" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="2595.0431937621074" />
+        <Gamma Value="1.2157854394003573" />
+        <MolarMass GPerMol="32.62718792360303" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="2614.906089994385" />
+        <Gamma Value="1.215047854711647" />
+        <MolarMass GPerMol="32.68589211813661" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="2633.1193847004947" />
+        <Gamma Value="1.2143597193748359" />
+        <MolarMass GPerMol="32.74113059705715" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="2650.049014510839" />
+        <Gamma Value="1.213690536464856" />
+        <MolarMass GPerMol="32.795294081112786" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="2666.673780967186" />
+        <Gamma Value="1.2129601807026584" />
+        <MolarMass GPerMol="32.8548023657821" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="2696.701634235067" />
+        <Gamma Value="1.211167230107201" />
+        <MolarMass GPerMol="32.9263493751613" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="2777.6197359025746" />
+        <Gamma Value="1.2057518109571044" />
+        <MolarMass GPerMol="32.97707966089088" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="19.778924879196207">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="1996.1358824112772" />
+        <Gamma Value="1.2388012305639609" />
+        <MolarMass GPerMol="32.5686796020275" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="2005.5694060451751" />
+        <Gamma Value="1.2383936569166056" />
+        <MolarMass GPerMol="32.59392629078896" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="2014.0734017844197" />
+        <Gamma Value="1.2380256988454643" />
+        <MolarMass GPerMol="32.61680793665114" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="2021.724960791957" />
+        <Gamma Value="1.2376925376410677" />
+        <MolarMass GPerMol="32.63760488873438" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="2028.6585739585494" />
+        <Gamma Value="1.2373843839138337" />
+        <MolarMass GPerMol="32.65691445941669" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="2035.1895504104264" />
+        <Gamma Value="1.2370754968604178" />
+        <MolarMass GPerMol="32.67633755119475" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="2078.5096575308016" />
+        <Gamma Value="1.2337551370259543" />
+        <MolarMass GPerMol="32.68701686300046" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="2126.7656513724446" />
+        <Gamma Value="1.230097548814133" />
+        <MolarMass GPerMol="32.6980976001554" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="2174.6645584446683" />
+        <Gamma Value="1.2265278595719717" />
+        <MolarMass GPerMol="32.711464281770404" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="2221.5433764025765" />
+        <Gamma Value="1.2230865230754657" />
+        <MolarMass GPerMol="32.72776378960203" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="2266.6351736029487" />
+        <Gamma Value="1.219818342343524" />
+        <MolarMass GPerMol="32.74789686470628" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="2309.1165540385314" />
+        <Gamma Value="1.2167690829903408" />
+        <MolarMass GPerMol="32.77311776414285" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="2348.1892121200153" />
+        <Gamma Value="1.2139801270578212" />
+        <MolarMass GPerMol="32.80515212365704" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="2383.1876335662046" />
+        <Gamma Value="1.211481761014653" />
+        <MolarMass GPerMol="32.8463149363541" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="28.762817816354605">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="1645.9250181853133" />
+        <Gamma Value="1.2488363993108633" />
+        <MolarMass GPerMol="32.51846865620507" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="1672.6347942287803" />
+        <Gamma Value="1.2465782640939265" />
+        <MolarMass GPerMol="32.52130715788572" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="1698.5188288310767" />
+        <Gamma Value="1.2444162323146812" />
+        <MolarMass GPerMol="32.52441168748925" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="1723.234287608852" />
+        <Gamma Value="1.2423742156165318" />
+        <MolarMass GPerMol="32.527858365697725" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="1746.4226757674783" />
+        <Gamma Value="1.2404766582063607" />
+        <MolarMass GPerMol="32.53176771214921" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="1767.7383900509706" />
+        <Gamma Value="1.238746396337202" />
+        <MolarMass GPerMol="32.53632627657851" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="1786.8863689471852" />
+        <Gamma Value="1.2372018882447329" />
+        <MolarMass GPerMol="32.541814780617415" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="1803.6626402678064" />
+        <Gamma Value="1.2358542730644917" />
+        <MolarMass GPerMol="32.54864316779588" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="1817.9872402621834" />
+        <Gamma Value="1.2347050234750219" />
+        <MolarMass GPerMol="32.55739283097632" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="1829.9183251459333" />
+        <Gamma Value="1.2337449931396474" />
+        <MolarMass GPerMol="32.56886637547955" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="1839.6415698492908" />
+        <Gamma Value="1.2329552667954826" />
+        <MolarMass GPerMol="32.58414488797842" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="1847.438226333154" />
+        <Gamma Value="1.232309544718826" />
+        <MolarMass GPerMol="32.60465027631467" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="1853.642843059582" />
+        <Gamma Value="1.2317772522975576" />
+        <MolarMass GPerMol="32.63220401276831" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="1858.6030277047814" />
+        <Gamma Value="1.2313264964083446" />
+        <MolarMass GPerMol="32.66906250324113" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="41.8273335780234">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="1339.768281524781" />
+        <Gamma Value="1.258232738778127" />
+        <MolarMass GPerMol="32.37391302073505" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="1343.0491472856415" />
+        <Gamma Value="1.2579280069706025" />
+        <MolarMass GPerMol="32.37508560628472" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="1345.5698453341954" />
+        <Gamma Value="1.2576938302143357" />
+        <MolarMass GPerMol="32.37667931212959" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="1347.4845036042504" />
+        <Gamma Value="1.257515458911205" />
+        <MolarMass GPerMol="32.37886752297282" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="1348.931843146853" />
+        <Gamma Value="1.257379672767293" />
+        <MolarMass GPerMol="32.381887820893716" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="1350.0306280717155" />
+        <Gamma Value="1.2572751191644238" />
+        <MolarMass GPerMol="32.38606524438236" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="1350.879537001421" />
+        <Gamma Value="1.2571922571249239" />
+        <MolarMass GPerMol="32.39184251546206" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="1351.5597398002144" />
+        <Gamma Value="1.2571230606379158" />
+        <MolarMass GPerMol="32.399817956149576" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="1352.1387373996495" />
+        <Gamma Value="1.257060609865861" />
+        <MolarMass GPerMol="32.41079059172563" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="1352.6744704081798" />
+        <Gamma Value="1.2569986604068972" />
+        <MolarMass GPerMol="32.425809240915406" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="1353.2190524006007" />
+        <Gamma Value="1.2569312538040203" />
+        <MolarMass GPerMol="32.44621738783724" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="1353.8216490182635" />
+        <Gamma Value="1.2568524250320494" />
+        <MolarMass GPerMol="32.473677667749946" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="1354.5300187106036" />
+        <Gamma Value="1.2567560727853657" />
+        <MolarMass GPerMol="32.510149359486235" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="1369.3608740416717" />
+        <Gamma Value="1.2487733630465503" />
+        <MolarMass GPerMol="32.49555468822435" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+    <MixtureRatioCondition Value="60.82595402917927">
+      <PressureCondition>
+        <LnPressure Value="9.903487552536127" />
+        <Temperature K="956.5740498612076" />
+        <Gamma Value="1.283461487202136" />
+        <MolarMass GPerMol="32.26225494346102" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="10.572680994706142" />
+        <Temperature K="956.6181839107007" />
+        <Gamma Value="1.283459312235192" />
+        <MolarMass GPerMol="32.26469375395675" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.241874436876156" />
+        <Temperature K="956.6751382904795" />
+        <Gamma Value="1.2834568430112252" />
+        <MolarMass GPerMol="32.26808054514088" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="11.911067879046172" />
+        <Temperature K="956.7509413280012" />
+        <Gamma Value="1.2834538121175982" />
+        <MolarMass GPerMol="32.27277249727593" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="12.580261321216186" />
+        <Temperature K="956.8533860379166" />
+        <Gamma Value="1.2834498988646836" />
+        <MolarMass GPerMol="32.27925104146134" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.2494547633862" />
+        <Temperature K="956.9925895612332" />
+        <Gamma Value="1.2834447022628934" />
+        <MolarMass GPerMol="32.288155891755444" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="13.918648205556217" />
+        <Temperature K="957.1815541853671" />
+        <Gamma Value="1.2834377126037513" />
+        <MolarMass GPerMol="32.300320327907556" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="14.587841647726231" />
+        <Temperature K="957.4366090584308" />
+        <Gamma Value="1.2834282843088523" />
+        <MolarMass GPerMol="32.31679996046401" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.257035089896245" />
+        <Temperature K="957.7775099575543" />
+        <Gamma Value="1.2834156161765073" />
+        <MolarMass GPerMol="32.33888070233218" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="15.92622853206626" />
+        <Temperature K="958.2268582470363" />
+        <Gamma Value="1.283398749832245" />
+        <MolarMass GPerMol="32.368044029812765" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="16.595421974236274" />
+        <Temperature K="958.8084236016729" />
+        <Gamma Value="1.2833766028127231" />
+        <MolarMass GPerMol="32.40586254250726" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.26461541640629" />
+        <Temperature K="980.5081198549688" />
+        <Gamma Value="1.272417878106482" />
+        <MolarMass GPerMol="32.35314735715263" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="17.933808858576306" />
+        <Temperature K="989.714714514817" />
+        <Gamma Value="1.2677315338659243" />
+        <MolarMass GPerMol="32.310878416271535" />
+      </PressureCondition>
+      <PressureCondition>
+        <LnPressure Value="18.60300230074632" />
+        <Temperature K="990.2326745597505" />
+        <Gamma Value="1.2673267576259304" />
+        <MolarMass GPerMol="32.28782429101059" />
+      </PressureCondition>
+    </MixtureRatioCondition>
+  </MixtureReaction>
+</Assets>

@@ -1,0 +1,34 @@
+# ---- C# build output (inside "ORI Code") ----
+bin/
+obj/
+*.pdb
+
+# ---- Visual Studio / VS Code / Rider ----
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.rsuser
+
+# ---- Logs and temp files ----
+*.log
+*.tmp
+*.bak
+
+# ---- OS junk ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Screen recordings and screenshots ----
+*.mp4
+*.mov
+Screenshots/
+
+# ---- Never commit the game's own files ----
+KSA.dll
+Brutal.*.dll
+Planet.*.dll
+BepuUtilities.dll
+StarMap*.dll

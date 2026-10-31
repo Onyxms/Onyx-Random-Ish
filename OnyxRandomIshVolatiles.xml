@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+  <Substance Id="B5H9" DefaultPhase="Liquid">
+    <ShortName Value="Pentaborane" />
+    <FullName Value="Pentaborane" />            <!-- optional; MMH, NTO and HTP have one, Kerosene doesn't -->
+    <Description Value="A high-energy but lethally toxic fuel that ignites spontaneously on contact with air. Also it has green plumes" />
+    <Color R="0.65" G="1.0" B="0.60" />   <!-- 0 to 1 -->
+
+    <Gas>
+    <StorageTemperature K="334.2" />
+    <MolarMass GPerMol="63.13" />
+    <ThermalCondition>
+        <Temperature K="333.2" />
+        <HeatCapacityPerKgK J="1691.2" />
+        <ThermalConductivityPerMK W="0.017" />
+        <Gamma Value="1.0845" />
+    </ThermalCondition>
+    <ThermalCondition>
+        <Temperature K="386.0" />
+        <HeatCapacityPerKgK J="1987.1" />
+        <ThermalConductivityPerMK W="0.021" />
+        <Gamma Value="1.0710" />
+    </ThermalCondition>
+    <ThermalCondition>
+        <Temperature K="447.1" />
+        <HeatCapacityPerKgK J="2305.0" />
+        <ThermalConductivityPerMK W="0.026" />
+        <Gamma Value="1.0606" />
+    </ThermalCondition>
+    <ThermalCondition>
+        <Temperature K="518.0" />
+        <HeatCapacityPerKgK J="2635.4" />
+        <ThermalConductivityPerMK W="0.032" />
+        <Gamma Value="1.0526" />
+    </ThermalCondition>
+    <ThermalCondition>
+        <Temperature K="600.0" />
+        <HeatCapacityPerKgK J="2971.9" />
+        <ThermalConductivityPerMK W="0.039" />
+        <Gamma Value="1.0464" />
+    </ThermalCondition>
+    </Gas>
+
+    <Liquid>
+    <StorageTemperature K="283.15" />
+    <BoilingTemperature K="333.2" />
+    <EnthalpyOfVaporizationPerKg J="510300" />
+    <MinStoragePressure Pa="14500" />
+    <StorageDensity KgPerM3="620" />
+    <ThermalCondition>
+        <Temperature K="226.5" />
+        <HeatCapacityPerKgK J="2179" />
+        <ThermalConductivityPerMK W="0.135" />
+    </ThermalCondition>
+    <ThermalCondition>
+        <Temperature K="253.2" />
+        <HeatCapacityPerKgK J="2259" />
+        <ThermalConductivityPerMK W="0.130" />
+    </ThermalCondition>
+    <ThermalCondition>
+        <Temperature K="279.8" />
+        <HeatCapacityPerKgK J="2339" />
+        <ThermalConductivityPerMK W="0.126" />
+    </ThermalCondition>
+    <ThermalCondition>
+        <Temperature K="306.5" />
+        <HeatCapacityPerKgK J="2419" />
+        <ThermalConductivityPerMK W="0.121" />
+    </ThermalCondition>
+    <ThermalCondition>
+        <Temperature K="333.2" />
+        <HeatCapacityPerKgK J="2499" />
+        <ThermalConductivityPerMK W="0.117" />
+    </ThermalCondition>
+    </Liquid>
+  </Substance>
+</Assets>

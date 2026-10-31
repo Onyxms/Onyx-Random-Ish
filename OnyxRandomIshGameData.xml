@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+  <PartGameData Id="OnyxRandomIsh_Prefab_TankA" DisplayName="ORI 1m">
+    <EditorTag Value="Fuel Tanks" />
+    <Diameter M="1" />
+
+    <Collider Id="Collider1">
+      <Cylinder Id="CylinderCollider1">
+        <LocationAsmb X="0" Y="0" Z="0" />
+        <Collider2Asmb X="0" Y="0" Z="-1.5708" />
+        <LengthY M="2" />
+        <Radius M="0.5" />
+      </Cylinder>
+    </Collider>
+
+    <Tank>
+      <CylindricalTank>
+        <Material Id="Aluminum.2014(s)" />
+        <Length M="2" />
+        <OuterRadius M="1" />
+        <WallThickness Mm="4" />
+      </CylindricalTank>
+    </Tank>
+
+    <Connector Id="_connector1">
+      <Capabilities>BulkFluid</Capabilities>
+    </Connector>
+    <Connector Id="_connector2">
+      <Capabilities>BulkFluid</Capabilities>
+    </Connector>
+  </PartGameData>
+
+  <PartGameData Id="OnyxRandomIsh_Prefab_BellA" DisplayName="ORI Engine 1">
+    <EditorTag Value="Fuel Tanks" />
+    <Diameter M="1" />
+
+    <Collider Id="Collider1">
+      <Cylinder Id="CylinderCollider1">
+        <LocationAsmb X="0" Y="0" Z="0" />
+        <Collider2Asmb X="0" Y="0" Z="-1.5708" />
+        <LengthY M="2" />
+        <Radius M="0.5" />
+      </Cylinder>
+    </Collider>
+
+    <Tank>
+      <CylindricalTank>
+        <Material Id="Aluminum.2014(s)" />
+        <Length M="2" />
+        <OuterRadius M="1" />
+        <WallThickness Mm="4" />
+      </CylindricalTank>
+    </Tank>
+
+    <Connector Id="_connector1">
+      <Capabilities>BulkFluid</Capabilities>
+    </Connector>
+    <RocketEngineController Id="ORI-E-1">
+      <RocketReference Id="Engine" SubPartId="OnyxRandomIsh_Subpart_NozzleA" />
+    </RocketEngineController>
+    <ConsumerFeedWiring Id="ThrustChamber" SubPartId="OnyxRandomIsh_Subpart_NozzleA">
+      <FeedsFrom Connector="_connector1" />
+    </ConsumerFeedWiring>
+  </PartGameData>
+
+  <SubPartGameData Id="OnyxRandomIsh_Subpart_NozzleA">
+    <Rocket Id="Engine">
+      <Core Id="ThrustChamber" />
+      <Nozzle Id="Nozzle" />
+    </Rocket>
+    <Combustor Id="ThrustChamber">
+      <FeedsFrom Parent="true" />
+      <Reaction Id="Pentaborane">
+        <MixtureRatio>2.0</MixtureRatio>
+      </Reaction>
+      <MaxPressure Bar="125" />
+      <ThermalEfficiency Value="0.5" />
+      <MinimumThrottle Value="0.01" />
+    </Combustor>
+    <DeLavalNozzle Id="Nozzle">
+      <ExitDiameter M="1" />
+      <FxExitDiameter M="0.98334" />
+      <AreaRatio Value="6.25" />
+      <FlowEfficiency Value="0.5" />
+      <ExpansionEfficiency Value="1" />
+      <ExhaustLocation X="-0.75" Y="0.0" Z="0.0" />
+      <ExhaustDirection X="-1" Y="0" Z="0" />
+      <ReactionPlume Default="true">
+        <VolumetricExhaust Id="EngineORI" />
+      </ReactionPlume>
+      <SoundEvent Action="On" SoundId="DefaultEngineSoundBehavior" />
+    </DeLavalNozzle>
+  </SubPartGameData>
+
+  <PartGameData Id="ORIEngineA" DisplayName="ORI Engine 1A">
+      <SubPart Id="OnyxRandomIsh_Subpart_NozzleA1">
+      <Gimbal>
+        <MaxAngleY Degrees="5" />
+        <MaxAngleZ Degrees="5" />
+        <ConstrainToCircle Value="false" />
+      </Gimbal>
+    </SubPart>
+    <EditorTag Value="Engines" />
+    <Diameter M="1" />
+    <RocketEngineController Id="ORI-E-1A">
+      <RocketReference Id="Engine" SubPartId="OnyxRandomIsh_Subpart_NozzleA1" />
+    </RocketEngineController>
+    <ConsumerFeedWiring Id="ThrustChamber" SubPartId="OnyxRandomIsh_Subpart_NozzleA1">
+      <FeedsFrom Connector="_connector1" />
+    </ConsumerFeedWiring>
+    <Connector Id="_connector1">
+      <Capabilities>BulkFluid</Capabilities>
+    </Connector>
+    <SolidSphereMass>
+      <Mass Kg="500" />
+      <Radius M="0.35" />
+    </SolidSphereMass>
+    <Collider Id="Collider1">
+      <Cylinder Id="CylinderCollider1">
+        <LocationAsmb X="0" Y="0" Z="0" />
+        <Collider2Asmb X="0" Y="0" Z="1.57" />
+        <LengthY M="2" />
+        <Radius M="0.5" />
+      </Cylinder>
+    </Collider>
+  </PartGameData>
+</Assets>

@@ -1,0 +1,17 @@
+id = "OnyxRandomIsh"
+name = "OnyxRandomIsh"
+version = "0.0.1"
+author = "Onyx"
+
+assets = [
+    "KittenEngineAssets.xml",
+    "KittenEngineGameData.xml",
+    "OnyxRandomIshAssets.xml",
+    "OnyxRandomIshGameData.xml",
+    "OnyxRandomIshVolatiles.xml",
+    "OnyxRandomIshReactions.xml",
+    "OnyxRandomIshExhaust.xml",
+]
+
+[StarMap]
+EntryAssembly = "OnyxRandomIsh"

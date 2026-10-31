@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+  <SubPartGameData Id="KittenEngineMod_Subpart_Mk2Assembly">
+    <Rocket Id="Engine">
+      <Core Id="ThrustChamber" />
+      <Nozzle Id="Nozzle" />
+    </Rocket>
+    <Combustor Id="ThrustChamber">
+      <FeedsFrom Parent="true" />
+      <Reaction Id="Hydrolox">
+          <MixtureRatio>5.5</MixtureRatio>
+      </Reaction>
+      <MaxPressure Bar="150" />
+      <ThermalEfficiency Value="1" />
+      <MinimumThrottle Value="0.2" />
+    </Combustor>
+    <DeLavalNozzle Id="Nozzle">
+      <ExitDiameter M="2.5" />
+      <FxExitDiameter M="0.98334" />
+      <AreaRatio Value="40" />
+      <FlowEfficiency Value="1" />
+      <ExpansionEfficiency Value="1" />
+      <ExhaustLocation X="-0.896623" Y="0.0" Z="0.0" />
+      <ExhaustDirection X="-1" Y="0" Z="0" />
+      <ReactionPlume Default="true">
+        <VolumetricExhaust Id="EngineAMed" />
+      </ReactionPlume>
+      <SoundEvent Action="On" SoundId="DefaultEngineSoundBehavior" />
+    </DeLavalNozzle>
+  </SubPartGameData>
+
+  <PartGameData Id="KittenEngineMod_Prefab_LR91SeaMk2" DisplayName="LR91-A Sea">
+    <EditorTag Value="Engines" />
+    <Diameter M="1"/>
+    <RocketEngineController Id="LR91-AJ-3">
+      <RocketReference Id="Engine" SubPartId="KittenEngineMod_Subpart_Mk2Assembly1" />
+      <RocketReference Id="GasGenerator" />
+    </RocketEngineController>
+    <ConsumerFeedWiring Id="ThrustChamber" SubPartId="KittenEngineMod_Subpart_Mk2Assembly1">
+      <FeedsFrom Connector="_connector2" />
+    </ConsumerFeedWiring>
+    <Connector Id="_connector2">
+      <Capabilities>BulkFluid</Capabilities>
+    </Connector>
+    <Rocket Id="GasGenerator">
+      <Core Id="GasGeneratorChamber" />
+      <Nozzle Id="TurbineExhaustNozzle" SubPartId="CorePropulsionA_Subpart_EngineATurbopumpNozzle2" />
+    </Rocket>
+    <Combustor Id="GasGeneratorChamber">
+      <FeedsFrom Connector="_connector2" />
+      <Reaction Id="Hydrolox">
+          <MixtureRatio>5.5</MixtureRatio>
+      </Reaction>
+      <MaxPressure Bar="49" />
+      <ThermalEfficiency Value="0.95" />
+      <MinimumThrottle Value="0.1" />
+    </Combustor>
+    <SubPart Id="CorePropulsionA_Subpart_EngineATurbopumpNozzle2">
+      <Gimbal>
+        <MaxAngleY Degrees="70" />
+      </Gimbal>
+    </SubPart>
+    <SubPart Id="KittenEngineMod_Subpart_Mk2Assembly1">
+      <Gimbal>
+        <MaxAngleY Degrees="5" />
+        <MaxAngleZ Degrees="5" />
+        <ConstrainToCircle Value="false" />
+      </Gimbal>
+    </SubPart>
+    <SolidSphereMass>
+      <Mass Kg="1500" />
+      <Radius M="0.25" />
+    </SolidSphereMass>
+
+    <Collider Id="Collider1">
+      <Cylinder Id="CylinderCollider1">
+        <LocationAsmb X="0.6" Y="0" Z="0" />
+        <Collider2Asmb X="0" Y="0" Z="1.57" />
+        <LengthY M="1.1728" />
+        <Radius M="0.5" />
+      </Cylinder>
+      <Sphere Id="SphereCollider1">
+        <LocationAsmb X="-0.4" Y="0" Z="0" />
+        <Collider2Asmb X="0" Y="0" Z="0" />
+        <Radius M="0.4" />
+      </Sphere>
+      <Cylinder Id="CylinderCollider2">
+        <LocationAsmb X="-0.85" Y="0" Z="0" />
+        <Collider2Asmb X="0" Y="0" Z="1.57" />
+        <LengthY M="0.1" />
+        <Radius M="0.51" />
+      </Cylinder>
+    </Collider>
+  </PartGameData>
+</Assets>
