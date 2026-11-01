@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+    <!--Green pentaborane explosion. Everything here is a renamed copy of a stock definition with the colours changed,
+        so the stock explosions stay untouched.-->
+
+    <!--The big fireball volume. The only change from the stock FireballVolume is the soot colours, now green.-->
+    <ExplosionVolumeTemplate Id="ORI_FireballVolumeGreen" LifeSeconds="45" LifeIntensityExponent="0.4" NoiseScale="1.4" EdgeSharpness="0.71" ErosionDepth="0.585" DetailErosion="1" GlowSeconds="16" RollSpeed="5" RollDecay="0.08" FlowLoopPeriods="1.35" BillowCount="7" BillowSpeed="3" BillowBulge="0.3" ProfileAdvection="0" GapGlow="0.7" SootDensityBoost="3" FlameVariation="0.6" ExteriorSoot="3" NoiseExpansionResponse="1.31" VelocityDrag="100" ErosionRampSeconds="0.12" MotionStretch="0.1" GlowLightScale="70" RadiusGrowthExponent="0.33" MassConservation="1" GroundSit="0.5">
+        <Radius Start="3" Peak="30" PeakAt="0.1" End="80"/>
+        <Fade Start="1" Peak="1" PeakAt="0.5" End="0"/>
+        <Density Start="1" Peak="1" PeakAt="0.1" End="0.03"/>
+        <Emission Start="3" Peak="2.5" PeakAt="0.25" End="0"/>
+        <CoreTemperature Start="3200" Peak="1500" PeakAt="0.03" End="1000"/>
+        <RimTemperature Start="2200" Peak="950" PeakAt="0.12" End="800"/>
+        <SootThreshold Start="1.15" Peak="0.41" PeakAt="0.2" End="0.45"/>
+        <HotCoreFraction Start="0.3" Peak="0.35" PeakAt="0.22" End="0.4"/>
+        <CoreHollow Start="0" Peak="0" PeakAt="0.5" End="0"/>
+        <ColorStops MidAt="0.3">
+            <Start R="0.10" G="0.45" B="0.10"/>
+            <Mid R="0.15" G="0.65" B="0.15"/>
+            <End R="0.10" G="0.40" B="0.10"/>
+        </ColorStops>
+    </ExplosionVolumeTemplate>
+
+    <!--A green fire cloud, copied from the stock FireballVolumetric with the orange colours swapped for green.-->
+    <ParticleEmitter Id="ORI_FireballVolumetricGreen" Drag="0.5" Density="0.8">
+        <MaxParticles Value="1" />
+        <Mesh Id="ParticleSphere"/>
+        <Renderer>Volumetric</Renderer>
+        <Updaters>SimpleMovement</Updaters>
+        <Updaters>Age</Updaters>
+        <Updaters>GrowOverLifetime</Updaters>
+        <Updaters>LifetimeEnvelope</Updaters>
+        <Updaters>ModelMatrix</Updaters>
+        <SpawnMode>Burst</SpawnMode>
+        <EmitterSpawnLogic>Point</EmitterSpawnLogic>
+        <EmitterSize Value="1.5"/>
+        <EmitterExtents X="1.4" Y="0" Z="0"/>
+        <SpawnRate Value="2"/>
+        <SpawnDuration Value="10"/>
+        <Force X="0" Y="0" Z="0"/>
+        <EmitterExtra X="0" Y="0.5" Z="0" W="0"/>
+        <ParticleColor X="4" Y="12" Z="2.5" W="1"/>
+        <ParticleColorShift X="0" Y="0" Z="0"/>
+        <ParticleLifespan X="3.5" Y="6"/>
+        <ParticleSpawnLogic>Spokes</ParticleSpawnLogic>
+        <ParticleSize X="6" Y="10"/>
+        <ParticleVelocity X="10" Y="10" Z="10"/>
+        <ParticleVelocityShift Value="4"/>
+        <ParticleExtra X="0" Y="0" Z="0" W="0"/>
+        <ParticleAngularVelocity X="0" Y="0" Z="0"/>
+        <ScaleEnvelope Start="1" Peak="8" PeakAt="0.5" End="10"/>
+        <AlphaEnvelope Start="1" Peak="0.1" PeakAt="0.02" End="0.001"/>
+        <ColorStops MidAt="0.5">
+            <Start R="4" G="12" B="2.5"/>
+            <Mid R="1.5" G="10" B="0.9"/>
+            <End R="0.08" G="0.12" B="0.08"/>
+        </ColorStops>
+    </ParticleEmitter>
+
+    <!--Green sparks, copied from the stock ExplosionSparks.-->
+    <ParticleEmitter Id="ORI_ExplosionSparksGreen" Drag="1.5" Density="7800">
+        <MaxParticles Value="320" />
+        <Mesh Id="ParticleSphere"/>
+        <Renderer>Pbr</Renderer>
+        <Updaters>SimpleMovement</Updaters>
+        <Updaters>ScreenSpaceCollision</Updaters>
+        <Updaters>Age</Updaters>
+        <Updaters>ShrinkOverLifetime</Updaters>
+        <Updaters>ModelMatrix</Updaters>
+        <SpawnMode>Burst</SpawnMode>
+        <EmitterSpawnLogic>Sphere</EmitterSpawnLogic>
+        <EmitterSize Value="3"/>
+        <EmitterExtents X="7" Y="9" Z="0"/>
+        <SpawnRate Value="320"/>
+        <SpawnDuration Value="3"/>
+        <Force X="0" Y="0" Z="0"/>
+        <EmitterExtra X="0" Y="0" Z="0" W="0"/>
+        <ParticleColor X="3" Y="14" Z="3" W="1"/>
+        <ParticleColorShift X="0" Y="0" Z="0"/>
+        <ParticleLifespan X="0.4" Y="1.6"/>
+        <ParticleSpawnLogic>MoveAwayFromCenter</ParticleSpawnLogic>
+        <ParticleSize X="0.03" Y="0.07"/>
+        <ParticleVelocity X="50" Y="50" Z="50"/>
+        <ParticleVelocityShift Value="10"/>
+        <ParticleExtra X="0" Y="0" Z="0" W="0"/>
+        <ParticleAngularVelocity X="10" Y="10" Z="10"/>
+    </ParticleEmitter>
+
+    <!--The explosion itself: the green flash you built, the green volume (dimmer glow, cooler core, longer life), the extra green fire cloud, green sparks, and the stock metal debris.-->
+    <Explosion Id="ORI_Explosion_ConflagrationGreen">
+        <Flash PeakIntensity="5000" Range="200" DecaySeconds="0.6" LifeSeconds="1.5" CastShadows="false" ColorMidAt="0.3">
+            <ColorStart R="0.85" G="1" B="0.85"/>
+            <ColorMid R="0.35" G="1" B="0.3"/>
+            <ColorEnd R="0.05" G="0.6" B="0.15"/>
+        </Flash>
+        <SoundEvent SoundId="ExplosionBig"/>
+        <VolumeRef Id="ORI_FireballVolumeGreen" Delay="0" Intensity="1" FallbackEmitterId="ORI_FireballVolumetricGreen"/>
+        <EmitterRef Id="ORI_FireballVolumetricGreen" Delay="0" Intensity="1"/>
+        <EmitterRef Id="DebrisMetalA" Delay="0" Intensity="4" MinPressurePa="500"/>
+        <EmitterRef Id="DebrisMetalAVacuum" Delay="0" Intensity="4" MaxPressurePa="500"/>
+        <EmitterRef Id="DebrisMetalC" Delay="0.05" Intensity="2" MinPressurePa="500"/>
+        <EmitterRef Id="DebrisMetalCVacuum" Delay="0.05" Intensity="2" MaxPressurePa="500"/>
+        <EmitterRef Id="DebrisMetalE" Delay="0.1" Intensity="4" MinPressurePa="500"/>
+        <EmitterRef Id="DebrisMetalEVacuum" Delay="0.1" Intensity="4" MaxPressurePa="500"/>
+        <EmitterRef Id="ORI_ExplosionSparksGreen" Delay="0" Intensity="3"/>
+    </Explosion>
+</Assets>
